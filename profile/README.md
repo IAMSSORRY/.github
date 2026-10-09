@@ -4,6 +4,8 @@
 
 PAC 2026 Physical AI Challenge · 분과① 로보틱스 미션 · 안동청과 기업문제
 
+<img width="3024" height="1896" alt="image" src="https://github.com/user-attachments/assets/4869ce35-aba4-4850-8de0-8e075f4139fc" />
+
 ---
 
 ## 무엇을 만드나
