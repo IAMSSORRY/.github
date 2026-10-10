@@ -28,8 +28,9 @@ SSORRY는 등급과 함께 판정에 쓴 수치(빨강 비율, 임계값, 신뢰
 | 저장소 | 역할 | 스택 |
 |---|---|---|
 | [Piper](https://github.com/IAMSSORRY/Piper) | 로봇팔 제어 · 사과 검출 · 등급 판정 | Python · piper_sdk · OpenCV |
-| [Server](https://github.com/IAMSSORRY/Server) | 영상 중계 · 판정 수집 · 원격 제어 · AI 조언 | FastAPI · SQLite · Docker |
-| [Web](https://github.com/IAMSSORRY/Web) | 관제 대시보드 | React 19 · Vite · Tailwind CSS 4 |
+| [Server](https://github.com/IAMSSORRY/Server) | 영상 중계 · 판정 수집 · 원격 제어 · AI 조언 | FastAPI · SQLite · Claude API · Docker |
+| [Web](https://github.com/IAMSSORRY/Web) | 관제 대시보드 (웹) | React 19 · Vite · Tailwind CSS 4 |
+| [App](https://github.com/IAMSSORRY/App) | 관제 대시보드 (iOS · Android) | React Native · Expo |
 
 ## 시스템 구성
 
@@ -46,7 +47,7 @@ SSORRY는 등급과 함께 판정에 쓴 수치(빨강 비율, 임계값, 신뢰
   Server (FastAPI, Docker) ── SQLite 기록 · AI 조언
         │  WebSocket · REST
         ▼
-[ Web 대시보드 ]  실시간 영상 · 판정 근거 · 통계 · CSV · 비상정지
+[ Web · App 대시보드 ]  실시간 영상 · 판정 근거 · 통계 · CSV · AI 분석 · 비상정지
 ```
 
 ## 판정 기준
